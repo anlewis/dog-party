@@ -1,0 +1,18 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+:root {
+  --light-blue: #75e2e6;
+  --dark-blue: #048eaa;
+  --background-color: #ffffff;
+  --light-text: #ffffff;
+  --dark-text: #000000;
+}
+
+main {
+  background-image: url("images/park.jpg");
+  background-repeat: no-repeat;
+}
