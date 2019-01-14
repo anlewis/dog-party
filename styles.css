@@ -1,7 +1,13 @@
+@font-face {
+  font-family: "Idea Alt";
+  src: url("fonts/wlm-idea-alt.ttf");
+}
+
 *,
 *:after,
 *:before {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -26,12 +32,14 @@ main {
 }
 
 main img {
-
+  display: block;
+  margin: 20px auto;
 }
 
 main form {
   width: 100%;
   margin: 20px auto;
+  text-align: center;
 }
 
 main form input {
@@ -62,10 +70,6 @@ h1 {
   text-align: center;
 }
 
-img {
-
-}
-
 section {
   display: inline-block;
   width: 25%;
@@ -77,7 +81,7 @@ section h2 {
 }
 
 section p {
-  height: 720px;
+  height: 350px;
 }
 
 section button {
@@ -87,6 +91,10 @@ section button {
   height: 50px;
 }
 
+footer {
+  height: 200px;
+}
+
 .doggos {
   width: 100%;
 }
@@ -94,10 +102,6 @@ section button {
 .logos {
   width: 100%;
   margin: auto;
-}
-
-.logo {
-
 }
 
 .circle-dog {
